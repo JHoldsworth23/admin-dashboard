@@ -26,6 +26,14 @@ body {
     gap: 20px;
 }
 
+i[class*="clipboard"] {
+    font-size: 2rem;
+}
+
+i + h1 {
+    margin: 0 0 40px;
+}
+
 .nav {
     margin-bottom: 60px;
 }
