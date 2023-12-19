@@ -39,6 +39,16 @@ i + h1 {
     margin-bottom: 60px;
 }
 
+.option {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.option:hover {
+    color: black;
+    text-decoration: underline;
+}
+
 .sidebar h3 {
     margin: 0;
 }
