@@ -15,6 +15,18 @@ body {
 
     display: grid;
     grid-template-rows: repeat(3, auto);
+    gap: 20px;
+    justify-items: flex-start;
+}
+
+.nav {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 20px;
+}
+
+.nav > h3 {
+    margin: 0;
 }
 
 .header {
