@@ -5,8 +5,7 @@ body {
 .dashboard {
     min-height: 100vh;
     display: grid;
-    grid-template-columns: 1fr 5fr;
-    grid-template-rows: auto 1fr;
+    grid-template: auto 1fr / 1fr 5fr;
 }
 
 .sidebar {
@@ -20,6 +19,10 @@ body {
     gap: 20px;
     justify-items: flex-start;
     align-items: flex-start;
+}
+
+.sidebar h3 {
+    margin: 0;
 }
 
 .title, .nav, .setting {
@@ -50,10 +53,6 @@ i + h1 {
     text-decoration: underline;
 }
 
-.sidebar h3 {
-    margin: 0;
-}
-
 .header {
     background-color: lightskyblue;
     display: grid;
@@ -65,6 +64,15 @@ i + h1 {
 .header > div:first-child { 
     display: grid;
     grid-template-columns: 1fr 1fr;
+}
+
+.search {
+    display: grid;
+    grid-template: auto / auto 1fr;
+    gap: 16px;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 16px;
 }
 
 .main-content {
