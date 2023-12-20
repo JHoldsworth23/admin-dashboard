@@ -61,7 +61,7 @@ i + h1 {
     padding: 20px;
 }
 
-.header > div:first-child { 
+.header > div { 
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
