@@ -75,6 +75,15 @@ i + h1 {
     margin-right: 16px;
 }
 
+.profile {
+    display: grid;
+    grid-template-columns: repeat(3, max-content);
+    justify-content: flex-end;
+    align-items: center;
+    gap: 24px;
+    margin-right: 32px;
+}
+
 .main-content {
     background-color: wheat;
 }
