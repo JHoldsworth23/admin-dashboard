@@ -5,7 +5,8 @@ body {
 .dashboard {
     min-height: 100vh;
     display: grid;
-    grid-template: 1fr 5fr / auto 1fr;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: auto 1fr;
 }
 
 .sidebar {
@@ -55,6 +56,15 @@ i + h1 {
 
 .header {
     background-color: lightskyblue;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+
+    padding: 20px;
+}
+
+.header > div:first-child { 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 .main-content {
