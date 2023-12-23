@@ -112,8 +112,8 @@ i + h1 {
     grid-row: 1 / 3;
 
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    grid-auto-rows: min-content;
+    grid-template: min-content / repeat(auto-fit, minmax(350px, 1fr));
+    grid-auto-rows: 250px;
     justify-content: flex-start;
     align-content: flex-start;
     margin-right: 30px;
