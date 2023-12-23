@@ -139,8 +139,3 @@ i + h1 {
     border-radius: 16px;
     margin: 24px 20px 0 0;
 }
-
-.footer {
-    background-color: crimson;
-    grid-column: 1 / 3;
-}
