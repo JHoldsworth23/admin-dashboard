@@ -85,7 +85,7 @@ i + h1 {
     margin-right: 32px;
 }
 
-.username {
+.username, .users {
     display: grid;
     grid-template: auto / repeat(2, max-content);
     gap: 16px;
@@ -138,4 +138,10 @@ i + h1 {
     padding: 6px 20px;
     border-radius: 16px;
     margin: 24px 20px 0 0;
+}
+
+.trending > div {
+    background-color: goldenrod;
+    padding: 6px 20px;
+    margin-right: 20px;
 }
