@@ -70,7 +70,7 @@ i + h1 {
     grid-template-rows: 1fr 1fr;
     align-items: center;
     padding: 20px 50px 25px;
-    margin-bottom: 8px;
+    margin-bottom: 16px;
 }
 
 .header > div { 
@@ -127,6 +127,10 @@ i[class*="bell"] {
     align-items: center;
 }
 
+span {
+    font-size: 16px;
+}
+
 .username > img {
     width: 70px;
     height: auto;
@@ -137,8 +141,23 @@ i[class*="bell"] {
     grid-template: auto / repeat(3, max-content);
     justify-content: flex-end;
     align-items: center;
-    gap: 20px;
-    margin: 0 30px 32px;
+    gap: 30px;
+    margin: 30px 32px;
+}
+
+button {
+    background-color: #D45419;
+    color: #FFFFFF;
+    font-size: 18px;
+    width: 100px;
+    padding: 10px;
+    border: none;
+    border-radius: 26px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1992D4;
 }
 
 /* MAIN CONTENT */
