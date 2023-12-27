@@ -11,6 +11,7 @@ body {
     grid-template: auto 1fr / 1fr 5fr;
 }
 
+/* SIDEBAR */
 .sidebar {
     background-color: #D45419;
     color: whitesmoke;
@@ -61,6 +62,7 @@ i + h1 {
     text-decoration: underline;
 }
 
+/* HEADER */
 .header {
     max-height: 12vh;
     background-color: #FFFFFF;
@@ -109,6 +111,7 @@ i + h1 {
     margin: 0 30px 32px;
 }
 
+/* MAIN CONTENT */
 .main-content {
     background-color: #E2E8F0;
     display: grid;
