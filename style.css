@@ -92,8 +92,16 @@ i + h1 {
     display: grid;
     grid-template-columns: repeat(3, max-content);
     justify-content: flex-end;
+    align-items: center;
     gap: 24px;
     margin-right: 32px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+i[class*="bell"] {
+    font-size: 22px;
+    margin-right: 12px;
 }
 
 .rounded {
