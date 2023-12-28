@@ -206,9 +206,11 @@ button:hover {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-self: flex-end;
-    margin-right: 50px;
+    align-self: center;
+    font-size: 1.3rem;
+    margin-right: 30px;
     width: 100px;
-    gap: 16px;
+    gap: 20px;
 }
 
 .announcement > div {
