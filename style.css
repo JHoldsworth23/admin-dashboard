@@ -118,7 +118,7 @@ i[class*="bell"] {
     height: auto;
 }
 
-.username, .users {
+.current-user, .users {
     display: grid;
     grid-template: auto / repeat(2, max-content);
     gap: 16px;
@@ -129,7 +129,7 @@ span {
     font-size: 16px;
 }
 
-.username > img {
+.current-user > img {
     width: 70px;
     height: auto;
 }
@@ -213,4 +213,8 @@ h4 {
     background-color: #FFFFFF;
     padding: 6px 20px;
     margin-right: 20px;
+}
+
+.users p {
+    font-size: 0.9rem;
 }
