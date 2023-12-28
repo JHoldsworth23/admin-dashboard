@@ -162,7 +162,7 @@ button:hover {
 .main-content {
     background-color: #E2E8F0;
     display: grid;
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: 4fr 1fr;
     padding: 20px 30px;
 }
 
@@ -211,13 +211,14 @@ h4 {
 
 .trending > div {
     background-color: #FFFFFF;
-    padding: 6px 20px;
+    padding: 24px 24px;
     margin-right: 20px;
     border-radius: 12px;
     box-shadow: 2px 2px 8px #36454F;
 }
 
-.users p {
+.users {
+    margin-bottom: 8px;
     color: #808080;
     font-size: 0.9rem;
 }
