@@ -190,6 +190,8 @@ button:hover {
     box-shadow: 2px 2px 8px #36454F;
     display: grid;
     grid-template: repeat(3, 1fr) / 12px 1fr;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 
 .panel > div:first-child {
@@ -198,6 +200,15 @@ button:hover {
     margin: 0;
     border-radius: 16px 0 0 16px;
     height: 250px;
+}
+
+.panel > div:last-child {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-self: flex-end;
+    margin-right: 50px;
+    width: 100px;
+    gap: 16px;
 }
 
 .announcement > div {
