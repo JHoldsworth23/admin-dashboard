@@ -193,7 +193,7 @@ button:hover {
 .announcement > div {
     background-color: #FFFFFF;
     padding: 12px 28px;
-    border-radius: 16px;
+    border-radius: 12px;
     margin: 24px 20px 0 0;
     box-shadow: 2px 2px 8px #36454F;
 }
@@ -213,8 +213,17 @@ h4 {
     background-color: #FFFFFF;
     padding: 6px 20px;
     margin-right: 20px;
+    border-radius: 12px;
+    box-shadow: 2px 2px 8px #36454F;
 }
 
 .users p {
+    color: #808080;
     font-size: 0.9rem;
+}
+
+.username {
+    color: #000000;
+    font-size: 0.9rem;
+    font-weight: bold;
 }
