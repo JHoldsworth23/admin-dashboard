@@ -67,7 +67,7 @@ i + h1 {
     background-color: #FFFFFF;
     align-items: center;
     padding: 20px 50px 12px;
-    box-shadow: 2px 2px 8px black;
+    box-shadow: 2px 2px 8px #36454F;
     z-index: 1;
 }
 
@@ -195,6 +195,7 @@ button:hover {
     padding: 12px 28px;
     border-radius: 16px;
     margin: 24px 20px 0 0;
+    box-shadow: 2px 2px 8px #36454F;
 }
 
 h4 {
